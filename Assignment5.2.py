@@ -1,7 +1,7 @@
 largest = None
 smallest = None
 while True:
-    num = raw_input("Enter a number: ")
+    num = input("Enter a number: ")
     if num == "done": break
     try:
         num = int(num)
